@@ -15,7 +15,7 @@ class CardDetails extends StatelessWidget {
         Icon(
           icon,
           size: 100.0,
-          color: const Color(0xFF8D8E98),
+          color: Colors.white,
         ),
         Text(
           gender,
