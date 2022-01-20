@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:bmi_calculator/constants.dart';
 
 class CardDetails extends StatelessWidget {
   const CardDetails({Key? key, required this.gender, required this.icon})
@@ -19,10 +20,7 @@ class CardDetails extends StatelessWidget {
         ),
         Text(
           gender,
-          style: const TextStyle(
-            fontSize: 20.0,
-            color: Color(0xFF8D8E98),
-          ),
+          style: kLabelTextStyle,
         ),
       ],
     );

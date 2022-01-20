@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class ReusableCard extends StatelessWidget {
@@ -13,7 +12,7 @@ class ReusableCard extends StatelessWidget {
   final Widget? cardChild;
   final VoidCallback? onPress;
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onPress,
       child: Container(
